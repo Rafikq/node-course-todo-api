@@ -1,6 +1,8 @@
 /////////////////////////
 //// Root of our app ////
 /////////////////////////
+require('./config/config.js');
+
 var express = require('express');
 var bodyParser = require('body-parser');
 
